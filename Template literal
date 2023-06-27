@@ -1,0 +1,9 @@
+//Backticks
+let num1=6
+let num2=7
+let result= num1 + num2
+console.log(result)
+//suppose you want in this format "The addition of two numbers is" then
+console.log("The addition of" + num1 + "add" + num2 + "is" + result);
+//above one is difficulty so we can print easily by using backticks
+console.log(`The addition of ${num1} and ${num2} is ${result})
