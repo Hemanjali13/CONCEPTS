@@ -1,0 +1,9 @@
+const person = {
+ name: 'John',
+ age: 25,
+  occupation: 'Engineer'
+ };
+
+for (let key in person) {
+ console.log(key + ': ' + person[key]);
+}
