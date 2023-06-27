@@ -1,0 +1,13 @@
+GLOBAL VAR(it is can be taken from anywhere from the code)
+Local VAR(it is always located in the function)
+const globalVar = 'I am a global variable';
+
+function myFunction() {
+}
+console.log(globalVar);
+ myFunction()
+console.log(globalVar)
+var array=[1,2,3,4,5];
+for(var element of array){
+    console.log(element);
+}
