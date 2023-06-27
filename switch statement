@@ -1,0 +1,22 @@
+let day= "Holiday"
+switch(day){
+case "Monday" :
+console.log("7am")
+break;
+case "Tuesday" :
+case "Wednesday" :
+console.log("8am")
+break;
+case "Thursday" :
+console.log("9am")
+case "Friday" :
+console.log("10am")
+break;
+case "Saturday" :
+case "Sunday" :
+console.log("11am")
+break;
+default :
+console.log("I am gng out")
+}
+console.log(day)
