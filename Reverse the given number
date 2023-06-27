@@ -1,0 +1,9 @@
+let num=2345678
+let reverse=""
+while(num>0){
+    console.log(num%10)
+    reverse+=num%10
+    num=parseInt(num/10)
+}
+convert=parseInt(reverse)
+console.log(convert, typeof convert)
