@@ -1,0 +1,5 @@
+const numbers = [35, 28, 22, 20, 35, 44, 22, 24, 6, 28, 20, 34, 19, 21, 7, 7, 2, 17, 29, 41, 2, 3, 48, 10, 49, 29, 39, 12, 47, 50]
+const smallest_number = Math.min(...numbers);
+const largest_number = Math.max(...numbers);
+console.log('Smallest Value:', smallest_number); 
+console.log('Largest Value:', largest_number);  
