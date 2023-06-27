@@ -1,0 +1,22 @@
+const arr = [35, 28, 22, 20, 35, 44, 22, 24, 6, 28, 20, 34, 19, 21, 7, 7, 2, 17, 29, 41, 2, 3, 48, 10, 49, 29, 39, 12, 47, 50];
+console.log(arr.length);
+let uniquearr = [...new Set(arr)];//To remove duplicate elements in an array
+console.log(uniquearr);
+//sorting the array in ascending order
+for(let i=0;i<uniquearr.length;i++){
+    if(uniquearr[i]>uniquearr[i+1]){
+       let temp=uniquearr[i];
+       uniquearr[i]=uniquearr[i+1];
+       uniquearr[i+1]= temp;
+      i=-1;
+    }
+}
+console.log( uniquearr);
+console.log( uniquearr.length);
+// Find the 11th largest number
+let eleventhLargest = uniquearr[uniquearr.length - 11];
+console.log("11th largest number:", eleventhLargest);
+// Find the 6th smallest number
+let sixthSmallest = uniquearr[5];
+console.log("6th smallest number:", sixthSmallest);
+
