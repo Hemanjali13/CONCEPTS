@@ -1,0 +1,7 @@
+DESTRUCTING OF AN ARRAY
+var array=[1,2,3,4]
+var [a,b,c,d]= array;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
